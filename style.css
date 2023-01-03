@@ -1,4 +1,4 @@
 #navigation-menu{
-    display:flex;
+    display:inline-flex;
     flex-direction: row;
 }
