@@ -4,9 +4,11 @@ body{
 }
 
 .wrapper{
-    background: rgba(178, 217, 227, 0.2);
+    background: rgba(214, 233, 238, 0.2);
     border-radius: 1rem;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
+    margin:0;
+    
 }
 
 
