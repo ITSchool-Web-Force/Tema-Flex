@@ -88,7 +88,7 @@ img{
   display: inline-block;
   margin-block-start: 2rem;
   margin-inline-start: 4.8rem;
-  transition: background-color 0.14s;
+  transition: background-color 0.15s;
 }
 .continue:hover{
   background-color: rgb(35, 94, 94);
