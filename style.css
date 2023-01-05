@@ -2,13 +2,10 @@
     font-size: 16px;;
 }
 
-*{
-    margin:0;
-}
-
 body {
     background: radial-gradient(#c6e8f4, #6d75d0);
-    min-height: 100vmin;
+    min-height: 100vh;
+    margin:0;
 }
 
 .wrapper {
