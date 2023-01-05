@@ -69,8 +69,6 @@ header {
 img {
     height: 10rem;
     width: 10rem;
-    margin-block-end: 1rem;
-
 }
 
 #container {
@@ -79,9 +77,9 @@ img {
     flex-direction: row;
     justify-content: space-between;
     height:20rem;
-    width:80ch;
     border:1rem;
     margin-block: 2rem auto;
+    margin-inline: 1rem;
 
 }
 
@@ -117,7 +115,7 @@ img {
 
 #zona-libera {
     background-color: red;
-    margin-inline:auto;
+    margin-inline:1rem;
     border:1px solid black;
     padding:1rem;
     height:20rem;
