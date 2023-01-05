@@ -1,12 +1,12 @@
-:root{
+:root {
     font-size: 16px;;
 }
 
-body{
+body {
     background:rgba(58, 186, 186, 0.5)
 }
 
-.wrapper{
+.wrapper {
     background: radial-gradient(rgba(116, 223, 199, 0.3), rgb(255,255,255));
     border-radius: 0.4rem;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
@@ -18,7 +18,7 @@ body{
 }
 
 
-.navigation{
+.navigation {
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -36,7 +36,7 @@ header {
     align-items:center;
 }
 
-.menu-item{
+.menu-item {
     text-decoration: none;
     color: rgb(0,0,0);
     font-size: 2rem;
@@ -46,7 +46,7 @@ header {
     border-radius: 2rem;
 }
 
-.menu-item.active{
+.menu-item.active {
     background: #ff9494;
 }
 
@@ -60,7 +60,22 @@ header {
     text-transform: uppercase;
 }
 
-#container{
+img {
+    height: 15rem;
+    width: 15rem;
+}
+
+#container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:20vmin;
+    width:100vmin;
+    border:1rem;
+}
+
+#vertical {
+    display: flex;
+    flex-direction: column;
 }
