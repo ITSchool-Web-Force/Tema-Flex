@@ -18,8 +18,8 @@ body{
 }
 
 
-#navigation{
-    display:inline-flex;
+navigation{
+    display:flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -48,7 +48,7 @@ body{
 #h1 {
     padding-inline-start: 1rem;
     margin-inline-end: 0;
-    margin-left: 3rem;
+    margin-left: 1rem;
     color:pink;
     background-color: red;
     font-size:2rem;
