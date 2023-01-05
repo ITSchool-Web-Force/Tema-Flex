@@ -1,3 +1,9 @@
+:root{
+    font-size: 16px;;
+}
+
+
+
 body{
     background:rgba(58, 186, 186, 0.5)
     
@@ -19,4 +25,5 @@ body{
     display:inline-flex;
     flex-direction: row;
     align-items: center;
+    padding-inline: 1rem;
 }
