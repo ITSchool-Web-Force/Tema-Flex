@@ -24,7 +24,8 @@ body{
 #navigation{
     display:inline-flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
     padding-inline: 1rem;
     gap:2rem;
 }
