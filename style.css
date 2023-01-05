@@ -14,7 +14,7 @@ body{
 }
 
 
-#navigation_menu{
+#navigation{
     display:inline-flex;
     flex-direction: row;
     align-items: center;
