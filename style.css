@@ -28,18 +28,18 @@ body{
     border:1rem;
     gap:1rem;
     width: 100vmin;
-    background-color: blueviolet;
 }
 
 header {
     display: flex;
     flex-direction: flex-start;
+    align-items:center;
 }
 
 .menu-item{
     text-decoration: none;
-    text-transform: uppercase;
     color: rgb(0,0,0);
+    font-size: 2rem;
     padding: 0.3rem 0.75rem;
     display: inline-block;
     border-inline-end: 0.25rem solid rgb(0,0,0);
@@ -54,8 +54,8 @@ header {
     padding-inline-start: 1rem;
     margin-inline-end: 0;
     margin-left: 1rem;
-    color:pink;
-    background-color: red;
-    font-size:2rem;
+    color:black;
+    font-size:3rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
