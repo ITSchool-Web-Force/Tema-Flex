@@ -3,7 +3,7 @@
 }
 
 body {
-    background:rgba(58, 186, 186, 0.5)
+    background: radial-gradient(#c6e8f4, #6d75d0);
 }
 
 .wrapper {
