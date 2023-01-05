@@ -63,8 +63,9 @@ header {
 }
 
 img {
-    height: 10rem;
-    width: 10rem;
+    width: 14rem;
+    margin-block: 1rem;
+    border:0;
 }
 
 #container {
