@@ -40,6 +40,7 @@ header {
     display: flex;
     flex-direction: flex-start;
     align-items:center;
+    padding-block-start:1rem;
 }
 
 .menu-item {
@@ -66,18 +67,21 @@ header {
 }
 
 img {
-    height: 15rem;
-    width: 15rem;
+    height: 10rem;
+    width: 10rem;
+
 }
 
 #container {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-    height:20vmin;
-    width:100vmin;
+    height:20rem;
+    width:80ch;
     border:1rem;
+    margin-block: 2rem auto;
+
 }
 
 #vertical {
@@ -91,12 +95,14 @@ img {
     font-weight: bold;
     font-size: 2rem;
     padding-inline-start: 1rem;
+    width: 20rem;
 }
 
 #article2 {
     text-transform: capitalize;
     padding-inline-start: 1rem;
     margin-block-start: 1rem;
+    width:20rem;
 }
 #buton {
     display: block;
@@ -112,9 +118,12 @@ img {
 
 #zona-libera {
     background-color: red;
-    margin:2rem 1rem;
+    margin-inline:auto;
     border:1px solid black;
+    padding:1rem;
     height:20rem;
+    width:70ch;
+    
     
 
 }
