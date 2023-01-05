@@ -96,3 +96,13 @@ img {
     margin-left: 1rem;
     padding:1rem;
 }
+#buton {
+    background-color: rgb(161, 203, 235);
+    border-radius: 1ch;
+    padding:0.5rem 1rem;
+    color:rgb(255,255,255);
+    text-transform: uppercase;
+    border:0;
+    padding-inline-start: 1rem;
+    margin-left: 1rem;
+}
