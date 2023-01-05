@@ -42,3 +42,7 @@ body{
     border-inline-end: 0.25rem solid rgb(0,0,0);
     border-radius: 2rem;
 }
+
+.menu-item.active{
+    background: #ff9494;
+}
