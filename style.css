@@ -79,3 +79,12 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+#article1 {
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-inline-start: 1rem;
+    margin-inline-end: 0;
+    margin-left: 1rem;
+}
