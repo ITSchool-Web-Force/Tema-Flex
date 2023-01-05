@@ -88,3 +88,10 @@ img {
     margin-inline-end: 0;
     margin-left: 1rem;
 }
+
+#article2 {
+    text-transform: capitalize;
+    padding-inline-start: 1rem;
+    margin-inline-end: 0;
+    margin-left: 1rem;
+}
