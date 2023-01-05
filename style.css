@@ -32,3 +32,9 @@ body{
     width: 90%;
     background-color: blueviolet;
 }
+
+.menu-items{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+}
