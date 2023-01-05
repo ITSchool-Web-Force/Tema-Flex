@@ -59,3 +59,8 @@ header {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
