@@ -17,8 +17,8 @@ body {
     background: radial-gradient(rgba(116, 223, 199, 0.3), rgb(255,255,255));
     border-radius: 0.4rem;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
-    margin-block: var(--margin);
-    min-height: calc(100vh-2 * var(--margin));
+    margin-block: var(--margin) auto;
+    min-height: calc(100vh - 2 * var(--margin));
     width: 80ch;
     margin-inline:auto;
 }
