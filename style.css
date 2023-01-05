@@ -9,7 +9,7 @@ body{
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
     height:80vh;
     width:70vw;
-    margin:0;
+    margin-inline:auto;
     
 }
 
