@@ -4,7 +4,7 @@ body{
 }
 
 .wrapper{
-    background: rgba(214, 233, 238, 0.2);
+    background: radial-gradient(rgba(116, 223, 199, 0.3), rgb(255,255,255));
     border-radius: 1rem;
     box-shadow: 0.7rem 0.5rem 1rem 0.2rem rgba(170,200,200, 0.5);
     margin:0;
