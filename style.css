@@ -1,0 +1,116 @@
+body {
+    background: radial-gradient(#FFFFFF 90%, #EDFFF7 100%);
+  }
+
+  .block {
+    background: rgba(168, 192, 255, 0.17);
+    box-shadow: 8px 6px 18px -6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: block;
+    width: 35vw;
+    height: 80vh;
+    position: absolute; 
+    top: 10%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* partea stanga */
+
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: capitalize;
+    top: 5px;
+
+    color: #272D38;
+  }
+
+  .button {
+    background: #8EADD5;
+    border-radius: 4px;
+    border: #8EADD5;
+    padding: 8px 5px;
+    color: white;
+  }
+
+
+
+
+
+ /* partea dreapta */
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 55px;
+  }
+
+  nav {
+    margin-block-start: 20px;
+    margin-inline: 4rem;
+    text-transform: lowercase;
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+   
+  }
+
+  .menu {
+    border-radius: 32px;
+    padding: 5px 15px;
+    border: black;
+    box-shadow: 4px 0 #000000;
+  }
+
+  .active {
+    background: #FF9494;
+    border-radius: 32px;
+    padding: 5px 15px;
+    border: black;
+    box-shadow: 4px 0 #000000;
+  }
+
+  .business {
+    width: 170px;
+    margin-inline-start: 7rem;
+    margin-block-start: 3rem;
+  }
+
+
+
+
+
+
+/* chenarul de jos */
+
+  .chenar {
+    border: 1px solid black;
+    height: 7rem;
+    margin-inline: 1.2rem 1.2rem;
+    margin-block: 1rem;
+  }
+  
