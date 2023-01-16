@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: rgb(223, 17, 17);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-left: 1rem;
+  }
+  .nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  .nav a:hover {
+    background: rgb(14, 207, 14);
+  }
+  
+  .content {
+    margin-top: 6rem;
+    flex-direction: column;
+  }
+  .content > p {
+    color: black;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+  .ps5 {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    color: blue;;
+  }
+  .ps5 > p {
+    color: black;
+  }
+  .xboxx {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(49, 221, 14);
+  }
+  .xboxx > p {
+    color: black;
+  }
+  .xboxs {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(42, 250, 0);
+  }
+  .xboxs > p {
+    color: black;
+  }
+  .nintentooled {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(235, 20, 20);
+  }
+  .nintentooled > p {
+    color: black;
+  }
+  .nintendoswitch {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(80, 28, 28);
+  }
+  .nintendoswitch > p {
+    color: black;
+  }
+  h2 {
+    text-align: center;
+  }
+  .ps5pc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 0.1rem solid;
+    width: 25rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .xboxxpc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 0.1rem solid;
+    width: 25rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .xboxspc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 0.1rem solid;
+    width: 25rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .oledpc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 0.1rem solid;
+    width: 25rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .switchpc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 0.1rem solid;
+    width: 25rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto
+  }
+.description{
+    margin-left: auto;
+    margin-right:auto;
+    width: 60rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+ 
