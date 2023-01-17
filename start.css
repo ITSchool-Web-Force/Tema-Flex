@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #A8C0FF2B;
-    width: 810px;
+    width: 50rem;
     margin: 32px auto;
     padding: 16px 32px;
     box-shadow: 8px 6px 18px -6px rgba(0, 0, 0, 0.25);
@@ -35,9 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
-    gap: 10px;
-    width: 435px;
-    
+    gap: 10px;    
 }
 
 .nav-link{
@@ -61,7 +59,6 @@ body {
 
 .bio{
     display: flex;
-    width: 802.3px;
     height: 339px;
     padding-top: 0.5rem;
 
@@ -69,9 +66,9 @@ body {
 
 .description{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
     flex-direction: column;
-    flex-wrap: nowrap;
     color: #272D38;
     font-family: Inter;
     text-transform: capitalize;
@@ -90,16 +87,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: flex-start;
     border-radius: 8px;
     background:#8EADD5;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     color: white;
-    width: 125.81px;
-    height: 36.16px;
-    left: 35.85px;
-    top: 347.93px;
+   padding: 1em 2em 1em 2em;
 }
 
 .free{
@@ -109,10 +104,9 @@ body {
     justify-content: center;
     text-transform: capitalize;
     font-family: Inter;
-    width: 804px;
-    height: 515px;
+    width: 50rem;
+    height: 40rem;
     border: 1px solid #000000;
     flex: none;
     order: 2;
-    flex-grow: 1;
 }
